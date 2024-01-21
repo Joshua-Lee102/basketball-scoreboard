@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+h3{
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#home-score{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    width: 155px;
+    height: 120px;
+    background: black;
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL";
+}
+
+#guest-score{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    width: 155px;
+    height: 120px;
+    background: black;
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL";
+}
+
+.button{
+    background: #1B244A;
+    color: #9AABD8;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;  
+    width: 45px;
+    height: 45px;
+   font-family: "Cursed Timer ULiL";
+}
+
+.reset-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.reset-button {
+    margin-top: 0px;
+    width: 135px;
+}
